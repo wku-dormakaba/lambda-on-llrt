@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "esbuild index.js --platform=node --target=es2020 --format=esm --bundle --minify --external:@aws-sdk --external:uuid > ../dist/index.js"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.10"
+  }
+}
